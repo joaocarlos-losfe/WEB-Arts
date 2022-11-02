@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/taskbar.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script type="text/javascript" src="./scripts/main.js" defer></script>
+    <script type="text/javascript" src="./scripts/taskbar.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <main id="desktop">
+
+        <section id="task_bar" class="task-bar-light-mode">
+            <div id="global-area">
+                <span class="material-symbols-outlined">apps</span>
+                <span class="material-symbols-outlined">browse_activity</span>
+                <input id="search_input" placeholder="digite para pesquisar" type="text"/>
+            </div>
+
+            <h2 id="current-datetime"></h2>
+
+            <div id="actions_area">
+                
+                <button type="button" id="btn-swap-audio">
+                    <span class="material-symbols-outlined">volume_up</span>
+                </button>
+
+                <button type="button" id="btn-swap-wifi">
+                    <span class="material-symbols-outlined">network_wifi_3_bar</span>
+                </button>
+
+                <button type="button" id="btn-swap-theme">
+                    <span id="theme-mode" class="material-symbols-outlined">light_mode</span>
+                </button>
+
+                <button type="button" id="btn-swap-wallpaper">
+                    <span class="material-symbols-outlined">wallpaper</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="desktop_content_area">
+            <section id="window_exemple">
+
+                <div id="window_top_bar">
+                    <div id="app_info">
+                        <img src="./images/appicons/visual-studio.png"/>
+                        <h3>Visual Studio</h3>
+                    </div>
+
+                    <div id="window_actions">
+                        <h4>Arquivo</h4>
+                        <h4>Editar</h4>
+                        <h4>Seleção</h4>
+                        <h4>Ver</h4>
+                        <h4>Acessar</h4>
+                        <h4>Terminal</h4>
+                        <h4>Ajuda</h4>
+                    </div>
+
+                    <div id="dispatch_area">
+                        <span class="material-symbols-outlined">remove</span>
+                        <span class="material-symbols-outlined">open_in_new</span>
+                        <span class="material-symbols-outlined">open_in_full</span>
+                    </div>
+                </div>
+
+                <div id="left-window_actions">
+
+                </div>
+
+            </section>
+        </section>
+
+        <section id="dock">
+            <div id="favorites">
+                <span class="material-symbols-outlined">account_circle</span>
+                <h2>João Carlos </h2>
+                <audio controls autoplay>
+                  <source src="./files/music/example.mp3" type="audio/mpeg">
+                </audio>
+                <span class="material-symbols-outlined">expand_less</span>
+                <span class="material-symbols-outlined">battery_4_bar</span>
+                <span class="material-symbols-outlined">folder</span>
+            </div>
+
+            <div id="favorites_apps">
+                <img src="./images/appicons/chrome.png"/>
+                <img src="./images/appicons/email.png"/>
+                <img src="./images/appicons/photoshop.png"/>
+                <img src="./images/appicons/visual-studio.png"/>
+                <img src="./images/appicons/spotify.png"/>
+                
+            </div>
+
+            <div id="execution_apps">
+                <img src="./images/appicons/visual-studio.png"/>
+                <img src="./images/appicons/spotify.png"/>
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,163 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#desktop{
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/wallpapers/wa01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+#desktop_content_area{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 18px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#window_exemple{
+    background-color: white;
+    margin: 0 auto;
+    width: 1200px;
+    height: 620px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-direction: column;
+}
+
+#window_exemple #window_top_bar {
+    width: 100%;
+    height: 28px;
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 12px;
+    box-sizing: border-box;
+}
+
+#app_info{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#app_info img{
+    height: 20px;
+    width: 20px;
+}
+
+#app_info h3{
+    font-size: 10pt;
+}
+
+
+#window_top_bar #window_actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+#window_top_bar #dispatch_area{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+#dispatch_area span{
+        font-size: 12pt;
+}
+
+#window_exemple #left-window_actions{
+    border-right: 1px solid rgb(228, 228, 228);
+    height: 100%;
+    width: 200px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+#dock{
+    background-color: white;
+    width: 65%;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    gap: 12px;
+
+    justify-content: space-between;
+}
+
+#favorites{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+#favorites audio{
+    height: 32px;
+}
+
+#favorites_apps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+#favorites_apps img{
+    height: 32px;
+    width: 32px;
+}
+
+#execution_apps{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#execution_apps img{
+    height: 32px;
+    width: 32px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid red;
+    border-radius: 4px;
+}

@@ -1,0 +1,64 @@
+nav{
+    width: 280px;
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+nav::-webkit-scrollbar{
+    width: 8px;
+}
+
+nav:hover::-webkit-scrollbar{
+    background: #272727;
+}
+
+nav:hover::-webkit-scrollbar-thumb{
+    background: #717171;
+    border-radius: 10px;
+}
+
+nav div{
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 8px;
+}
+
+nav div button{
+    height: 42px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #0f0f0f;
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+nav div button:hover{
+    background-color: #272727;
+}
+
+hr{
+    width: 100%;
+    border: 0.2px solid #303030;
+}
+
+#navbar-item-legend{
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+
+.navbar-sub-img{
+    height: 24px;
+    width: 24px;
+    border-radius: 100px;
+}
+

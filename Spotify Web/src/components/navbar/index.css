@@ -1,0 +1,105 @@
+nav{
+    width: 258px;
+    background-color: black;
+    height: 100%;
+    flex-direction: column;
+}
+
+nav .container{
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav .logo-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+    margin-bottom: 32px;
+}
+
+nav .logo-area img{
+    height: 34px;
+}
+
+nav .logo-area h1{
+    font-weight: bold;
+    color: white;
+    font-size: 16pt;
+}
+
+.nav-options{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#primary-options, #secondary-options{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.option h2{
+    font-size: 10pt;
+}
+
+#playlist-add-button, #music-like-button{
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: #a3a3a3;
+    width: 24px;
+    height: 24px;
+    font-size: 9pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#music-like-button{
+    color: white;
+    background-image: linear-gradient(
+    155deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(229deg 100% 22%) 11%,
+    hsl(222deg 100% 24%) 22%,
+    hsl(217deg 100% 26%) 33%,
+    hsl(213deg 100% 27%) 44%,
+    hsl(209deg 100% 28%) 55%,
+    hsl(205deg 100% 28%) 66%,
+    hsl(201deg 100% 29%) 78%,
+    hsl(197deg 100% 29%) 89%,
+    hsl(195deg 80% 33%) 100%
+    );
+}
+
+#privacy{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 12px;
+    font-weight: 300;
+    font-size: 9pt;
+    align-items: baseline;
+    justify-content: end;
+}
+
+
+
+
+
